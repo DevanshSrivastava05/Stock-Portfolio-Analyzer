@@ -1,44 +1,41 @@
-# Stock-Portfolio-Analyzer
-
+**Stock Portfolio Analyzer 📈**
 A comprehensive stock portfolio analysis tool built with Python and Streamlit that helps investors track, analyze, and visualize their stock investments with advanced technical indicators.
-🚀 Features
+
+
+**🚀 Features**
+
 •	Portfolio Management 
-o	Add and track multiple stocks
-o	Input purchase price and quantity
-o	Sector-wise categorization
+    o	Add and track multiple stocks
+    o	Input purchase price and quantity
+    o	Sector-wise categorization
+    
 •	Technical Analysis 
-o	Real-time price tracking
-o	Support and resistance levels
-o	Moving averages (50-day, 200-day)
-o	RSI (Relative Strength Index)
-o	MACD (Moving Average Convergence Divergence)
+    o	Real-time price tracking
+    o	Support and resistance levels
+    o	Moving averages (50-day, 200-day)
+    o	RSI (Relative Strength Index)
+    o	MACD (Moving Average Convergence Divergence)
+    
 •	Advanced Analytics 
-o	Sector-wise allocation visualization
-o	News sentiment analysis
-o	Performance metrics
-o	Buy/Hold recommendations
-•	Interactive Visualization 
-o	Candlestick charts
-o	Technical indicators overlay
-o	Sector allocation charts
-🛠️ Installation
-1.	Clone the repository:
-bash
-Copy
-git clone https://github.com/your-username/stock-portfolio-analyzer.git
-cd stock-portfolio-analyzer
-2.	Create and activate virtual environment:
-bash
-Copy
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-3.	Install required packages:
-bash
-Copy
-pip install -r requirements.txt
-📋 Requirements
+      o	Sector-wise allocation visualization
+      o	News sentiment analysis
+      o	Performance metrics
+      o	Buy/Hold recommendations
+
+•	Interactive Visualization
+    o	Candlestick charts
+    o	Technical indicators overlay
+    o	Sector allocation charts
+🛠️ **Installation**
+      1.	Clone the repository:
+      2.	Create and activate virtual environment:
+      3.	Install required packages:
+            pip install -r requirements.txt
+
+
+**📋 Requirements**
 Create a requirements.txt file with:
-Copy
+
 streamlit
 yfinance
 pandas
@@ -47,16 +44,15 @@ numpy
 requests
 textblob
 ta
-🚀 Usage
+
+**🚀 Usage**
 1.	Run the Streamlit app:
-bash
-Copy
-streamlit run app.py
+    streamlit run app.py
 2.	Access the web interface at http://localhost:8501
 3.	Enter stock details: 
-o	Stock symbol
-o	Purchase price
-o	Quantity
-o	Sector
+    o	Stock symbol
+    o	Purchase price
+    o	Quantity
+    o	Sector
 4.	Click "Add to Portfolio" and "Analyze Portfolio" to view insights
 
